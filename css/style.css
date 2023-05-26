@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@300&display=swap');
+
+/*font-family: 'Bebas Neue', cursive;
+ font-family: 'Mukta', sans-serif;*/
+
+/*inicio navegador/*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: antiquewhite;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+
+
+
+
+}
+
+.navbar img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+
+}
+
+
+/*fin navegador/*/
+
+/*inicio main/*/
+
+.carousel-item {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    padding: 40px;
+
+
+}
+
+.outdoor {
+    background-color: antiquewhite;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+
+.outdoor-body {
+    display: inline-block;
+    width: 21%;
+
+    background-color: antiquewhite;
+    margin: 10px;
+    position: relative;
+
+}
+
+.outdoor-body img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    transition: .5s;
+    border: solid rgb(241, 238, 238) 0.3px;
+    border-radius: 5%;
+
+}
+
+.new {
+    background-color: rgba(250, 235, 215, 0.271);
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid rgba(0, 0, 0, 0.378) 0, 1px;
+    border-radius: 10px;
+}
+
+.outdoor-body img:hover {
+    height: 400px;
+    box-shadow: 5px 5px 15px 0px;
+}
+
+.new:hover {
+    background-color: rgba(0, 0, 0, 0.527);
+
+    border: solid rgba(0, 0, 0, 0.378) 0, 1px;
+    border-radius: 10px;
+
+}
+
+.soy-camila {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 40px;
+}
+
+.camila img {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+
+.indoor {
+    background-color: antiquewhite;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+
+.indoor-body {
+    display: inline-block;
+    width: 21%;
+    background-color: antiquewhite;
+    margin: 10px;
+    position: relative;
+
+
+}
+
+.indoor-body img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    transition: .5s;
+    border: solid rgb(241, 238, 238) 0.3px;
+    border-radius: 5%;
+
+}
+
+.new {
+    background-color: rgba(250, 235, 215, 0.271);
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.indoor-body img:hover {
+    height: 400px;
+    box-shadow: 5px 5px 15px 0px;
+}
+
+
+
+.descuento a {
+background-color: black;
+width: 100%;
+height: 30px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer/*/
+
+
+.footer {
+    background-color: antiquewhite;
+    margin: 100px;
+}
+
+.footer h2 {
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+
+}
+
+.icon-face img {
+    width: 35px;
+    height: 35px;
+    display: block;
+    object-fit: cover;
+    padding-left: 50px;
+
+}
+
+.icon-face p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+.icon-insta img {
+    width: 35px;
+    height: 35px;
+    display: block;
+    object-fit: cover;
+    padding-left: 50px;
+
+}
+
+.icon-insta p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    padding-left: 8px;
+
+}
+
+
+
+
+
+/*fin footer/*/
+
+/*sesiones/*/
+
+.sesiones h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.cards {
+    background-color: antiquewhite;
+    padding: 20px 10px;
+    text-align: center;
+
+
+}
+
+
+.card-body img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: inline-block;
+    width: 21%;
+    text-align: left;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    margin: 10px;
+
+
+}
+
+.card-body h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+
+}
+
+.card-body p {
+    font-family: 'Mukta', sans-serif;
+    font: size 20px;
+    ;
+    font-weight: bold;
+}
+
+.card-body h2,
+.card-body p {
+    padding: 14px;
+}
+
+/*/fin sesiones*/
+
+/*galeria/*/
+.galeria-titulo h1 {
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.galeria h2 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
+/*fin galeria/*/
+
+/*estudio/*/
+
+
+.img-estudio {
+    padding-top: 100px;
+
+
+}
+
+.img-estudio h1 {
+    font-family: 'Bebas Neue', cursive;
+    font: size 30px;
+    padding-bottom: 10px;
+
+}
+
+.img-estudio img {
+    background-color: antiquewhite;
+    width: 100%;
+    border: 1px solid;
+    color: black;
+
+}
+
+.iframe-estudio {
+    padding-top: 15px;
+}
+
+.iframe-estudio h2 {
+    font-family: 'Bebas Neue', cursive;
+    font: size 30px;
+
+
+}
+
+.iframe-estudio p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+
+
+}
+
+
+
+
+.iframe-estudio iframe {
+
+
+    background-color: antiquewhite;
+    width: 100%;
+
+
+
+
+}
+
+/*fin estudio/*/
+
+
+
+
+
+/* contacto, registrate*/
+
+.registrate h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin: 10px;
+
+}
+
+.formulario {
+    background-color: antiquewhite;
+    font-size: 25px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    margin: 10px;
+
+
+}
+
+
+/*fin contacto/*/
