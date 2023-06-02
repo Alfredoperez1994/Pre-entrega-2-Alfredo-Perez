@@ -351,6 +351,7 @@ carousel-item img {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: antiquewhite;
 
     }
 
@@ -450,4 +451,25 @@ carousel-item img {
     .col img {
         width: 240px;
     }
+}
+@media only screen and(max-width:300px) {
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .soy-camila {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .col img {
+        width: 80px;
+    }
+    
 }
