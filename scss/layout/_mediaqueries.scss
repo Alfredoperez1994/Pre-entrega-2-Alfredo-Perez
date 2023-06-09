@@ -1,0 +1,139 @@
+
+@media only screen and (max-width:1024px) {
+    .carousel-inner {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .outdoor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+
+    }
+
+    .outdoor-body {
+        width: 75%;
+        background-color: antiquewhite;
+        margin: 10px;
+
+    }
+
+    .indoor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .indoor-body {
+        width: 75%;
+        background-color: antiquewhite;
+        margin: 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .col img {
+        width: 450px;
+
+
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .carousel-inner {
+        height: 100%;
+    }
+    .soy-camila {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .col img {
+        width: 450px;
+
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .soy-camila {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .col img {
+        width: 380px;
+    }
+
+
+}
+
+@media only screen and (max-width:330px) {
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .soy-camila {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .col img {
+        width: 240px;
+    }
+}
+@media only screen and (max-width:300px) {
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .soy-camila {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .col img {
+        width: 80px;
+    }
+    
+}

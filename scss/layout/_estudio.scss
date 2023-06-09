@@ -1,0 +1,47 @@
+
+.mi-estudio {
+  background-color: antiquewhite;
+
+}
+
+.mi-estudio h1 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.mi-estudio img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border: solid black 1px;
+
+}
+
+.deco-estudio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.deco-estudio img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  padding: 50px;
+  margin: 50px;
+  transition: .3s;
+}
+
+.deco-estudio img:hover {
+  height: 550px;
+  width: 550px;
+  box-shadow: 5px 5px 15px 0;
+  color: black;
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 400px;
+  padding-top: 50px;
+}
+
+  
