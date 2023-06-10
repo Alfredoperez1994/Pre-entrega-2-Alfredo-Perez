@@ -6,49 +6,51 @@
   gap: 30px;
   padding: 40px;
 
-}
+  .card {
+    width: 900px;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border: solid black 1px;
 
-.card {
-  width: 900px;
-  height: 550px;
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
-  border: solid black 1px;
+    img {
+      width: 600px;
+      height: 500px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
 
-}
-
-.card img {
-  width: 600px;
-  height: 500px;
-  object-fit: cover;
-  border-radius: 10px;
 }
 
 .card-body h2 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: $font;
 }
 
 .card-body p {
-  font-family: 'Mukta', sans-serif;
+  font-family: $second-font;
   font-size: 20px;
   font-weight: bold;
 }
-
 .card-body a {
-  background-color: black;
-  color: antiquewhite;
+  background-color: $second-color;
+  color: $main-color;
   width: 100px;
   height: 40px;
-  border: solid black 1px;
+  border: solid $second-color 1px;
   border-radius: 5px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: $font;
   font-size: 20px;
 
 }
-
 .btn-primary:hover {
-  background-color: antiquewhite;
-  color: black;
-  border: solid 1px black;
+  background-color: $main-color;
+  color: $second-color;
+  border: solid 1px $second-color;
 }
+
+}
+
+
+
+

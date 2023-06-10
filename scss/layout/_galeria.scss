@@ -1,9 +1,29 @@
+.galeria {
 
-.galeria img {
+  h1 {
+    font-family: $font;
+    text-decoration: underline;
+    padding: 10px;
+    font-size: 35px;
+
+  }
+
+  h2 {
+    font-family:$font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+ img {
   height: 600px;
   width: 600px;
   object-fit: cover;
   margin: 25px;
+  border-radius: 10px;
+
+}
 
 
 }

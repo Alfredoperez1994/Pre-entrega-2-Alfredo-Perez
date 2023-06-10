@@ -10,11 +10,10 @@
   background-color: antiquewhite;
   font-family: "Bebas Neue", cursive;
   font-size: 25px;
-  height: 100px;
+  height: 70px;
   width: 100%;
   display: flex;
 }
-
 .navbar img {
   width: 100%;
   height: 80px;
@@ -24,7 +23,6 @@
 .footer {
   padding: 50px;
 }
-
 .footer img {
   height: 70px;
 }
@@ -42,22 +40,21 @@ carousel-item img {
   text-align: center;
   margin-top: 30px;
 }
-
 .outdoor h1 {
   font-family: "Bebas Neue", cursive;
+  text-decoration: underline;
+  font-size: 35px;
   display: flex;
   justify-content: left;
 }
-
-.outdoor-body {
+.outdoor .outdoor-body {
   display: inline-block;
   width: 21%;
   background-color: antiquewhite;
   margin: 10px;
   position: relative;
 }
-
-.outdoor-body img {
+.outdoor .outdoor-body img {
   width: 100%;
   height: 350px;
   object-fit: cover;
@@ -65,8 +62,11 @@ carousel-item img {
   border: solid rgb(241, 238, 238) 0.3px;
   border-radius: 5%;
 }
-
-.new {
+.outdoor .outdoor-body img:hover {
+  height: 400px;
+  box-shadow: 5px 5px 15px 0px;
+}
+.outdoor .outdoor-body .new {
   background-color: rgba(250, 235, 215, 0.271);
   padding: 5px;
   position: absolute;
@@ -77,13 +77,7 @@ carousel-item img {
   border: solid rgba(0, 0, 0, 0.378) 0, 1px;
   border-radius: 10px;
 }
-
-.outdoor-body img:hover {
-  height: 400px;
-  box-shadow: 5px 5px 15px 0px;
-}
-
-.new:hover {
+.outdoor .outdoor-body .new:hover {
   background-color: rgba(0, 0, 0, 0.527);
   color: antiquewhite;
   border: solid rgba(0, 0, 0, 0.378) 0, 1px;
@@ -93,11 +87,10 @@ carousel-item img {
 .soy-camila {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  padding: 40px;
+  padding: 20px;
 }
-
-.camila img {
-  height: 450px;
+.soy-camila img {
+  height: 480px;
   width: 100%;
   display: flex;
   object-fit: cover;
@@ -108,16 +101,14 @@ carousel-item img {
   padding: 20px 10px;
   text-align: center;
 }
-
-.indoor-body {
+.indoor .indoor-body {
   display: inline-block;
   width: 21%;
   background-color: antiquewhite;
   margin: 10px;
   position: relative;
 }
-
-.indoor-body img {
+.indoor .indoor-body img {
   width: 100%;
   height: 350px;
   object-fit: cover;
@@ -125,8 +116,11 @@ carousel-item img {
   border: solid rgb(241, 238, 238) 0.3px;
   border-radius: 5%;
 }
-
-.new {
+.indoor .indoor-body img:hover {
+  height: 400px;
+  box-shadow: 5px 5px 15px 0px;
+}
+.indoor .indoor-body .new {
   background-color: rgba(250, 235, 215, 0.271);
   padding: 5px;
   position: absolute;
@@ -135,10 +129,11 @@ carousel-item img {
   font-size: 18px;
   font-weight: bold;
 }
-
-.indoor-body img:hover {
-  height: 400px;
-  box-shadow: 5px 5px 15px 0px;
+.indoor .indoor-body .new:hover {
+  background-color: rgba(0, 0, 0, 0.527);
+  color: antiquewhite;
+  border: solid rgba(0, 0, 0, 0.378) 0, 1px;
+  border-radius: 10px;
 }
 
 .descuento {
@@ -151,7 +146,6 @@ carousel-item img {
   height: 100%;
   border-radius: 10px;
 }
-
 .descuento a {
   color: antiquewhite;
   font-size: 60px;
@@ -168,8 +162,7 @@ carousel-item img {
   gap: 30px;
   padding: 40px;
 }
-
-.card {
+.sesiones .card {
   width: 900px;
   height: 550px;
   display: flex;
@@ -177,25 +170,21 @@ carousel-item img {
   padding: 20px;
   border: solid black 1px;
 }
-
-.card img {
+.sesiones .card img {
   width: 600px;
   height: 500px;
   object-fit: cover;
   border-radius: 10px;
 }
-
-.card-body h2 {
+.sesiones .card-body h2 {
   font-family: "Bebas Neue", cursive;
 }
-
-.card-body p {
+.sesiones .card-body p {
   font-family: "Mukta", sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
-
-.card-body a {
+.sesiones .card-body a {
   background-color: black;
   color: antiquewhite;
   width: 100px;
@@ -205,42 +194,52 @@ carousel-item img {
   font-family: "Bebas Neue", cursive;
   font-size: 20px;
 }
-
-.btn-primary:hover {
+.sesiones .btn-primary:hover {
   background-color: antiquewhite;
   color: black;
   border: solid 1px black;
 }
 
+.galeria h1 {
+  font-family: "Bebas Neue", cursive;
+  text-decoration: underline;
+  padding: 10px;
+  font-size: 35px;
+}
+.galeria h2 {
+  font-family: "Bebas Neue", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .galeria img {
   height: 600px;
   width: 600px;
   object-fit: cover;
   margin: 25px;
+  border-radius: 10px;
 }
 
-.mi-estudio {
+.estudio .mi-estudio {
   background-color: antiquewhite;
 }
-
-.mi-estudio h1 {
+.estudio .mi-estudio h1 {
   font-family: "Bebas Neue", cursive;
+  text-decoration: underline;
+  font-size: 35px;
 }
-
-.mi-estudio img {
+.estudio .mi-estudio img {
   width: 100%;
   height: 400px;
   object-fit: cover;
   border: solid black 1px;
 }
-
-.deco-estudio {
+.estudio .deco-estudio {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
-.deco-estudio img {
+.estudio .deco-estudio img {
   height: 500px;
   width: 500px;
   object-fit: cover;
@@ -248,15 +247,13 @@ carousel-item img {
   margin: 50px;
   transition: 0.3s;
 }
-
-.deco-estudio img:hover {
+.estudio .deco-estudio img:hover {
   height: 550px;
   width: 550px;
   box-shadow: 5px 5px 15px 0;
   color: black;
 }
-
-.mapa iframe {
+.estudio .mapa iframe {
   width: 100%;
   height: 400px;
   padding-top: 50px;
@@ -265,19 +262,20 @@ carousel-item img {
 .container {
   background-color: black;
   color: antiquewhite;
+  margin-top: 10px;
   padding: 40px;
   border-radius: 10px;
 }
-
-.col img {
+.container .col img {
   width: 600px;
   height: 500px;
   object-fit: cover;
+  border-radius: 10px;
 }
-
-.btn-primary {
+.container .btn-primary {
   background-color: antiquewhite;
   color: black;
+  border: solid black 1px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -340,6 +338,15 @@ carousel-item img {
   .carousel-inner {
     height: 100%;
   }
+  .sesiones {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .soy-camila {
     display: flex;
     flex-direction: column;
@@ -349,7 +356,7 @@ carousel-item img {
     flex-direction: column;
   }
   .col img {
-    width: 380px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 330px) {

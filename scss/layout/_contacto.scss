@@ -1,18 +1,25 @@
 .container {
-  background-color: black;
-  color: antiquewhite;
+  background-color: $second-color;
+  color: $main-color;
+  margin-top: 10px;
   padding: 40px;
   border-radius: 10px;
-}
 
-.col img {
-  width: 600px;
-  height: 500px;
-  object-fit: cover;
-}
+  .col img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
 
+  
 .btn-primary {
-  background-color: antiquewhite;
-  color: black;
+  background-color: $main-color;
+  color: $second-color;
+  border: solid $second-color 1px;
+}
 
 }
+
+
+

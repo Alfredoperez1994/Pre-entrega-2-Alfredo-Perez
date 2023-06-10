@@ -77,6 +77,16 @@
     .carousel-inner {
         height: 100%;
     }
+    .sesiones {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
     .soy-camila {
         display: flex;
@@ -90,11 +100,28 @@
     }
 
     .col img {
-        width: 380px;
+        width: 100%;
     }
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:330px) {
     .carousel-inner {
