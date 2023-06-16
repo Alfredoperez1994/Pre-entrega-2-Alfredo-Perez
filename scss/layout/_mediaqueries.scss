@@ -1,11 +1,144 @@
-
 @media only screen and (max-width:1024px) {
     .carousel-inner {
         height: 100%;
     }
+
+    .galeria {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        img {
+            height: 400px;
+            width: 425px;
+            object-fit: cover;
+        }
+    }
+
+}
+
+
+
+
+@media only screen and (max-width:960px) {
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .galeria {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        img {
+            height: 400px;
+            width: 400px;
+            object-fit: cover;
+        }
+    }
+
+
 }
 
 @media only screen and (max-width:768px) {
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .galeria {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 20px;
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            width: 100%;
+        }
+
+        img {
+            height: 400px;
+            width: 600px;
+            object-fit: cover;
+        }
+    }
+
+    .sesiones {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 95%;
+            height: 750px;
+        }
+
+    }
+
+    .estudio {
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px;
+        padding-top: 20px;
+        width: 700px;
+
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            width: 650px;
+
+            .col {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            img {
+                height: 600px;
+                width: 100%;
+            }
+
+        }
+
+    }
+
+}
+
+
+@media only screen and (max-width:576px) {
     .carousel-inner {
         height: 100%;
     }
@@ -15,14 +148,80 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: antiquewhite;
+
+        .outdoor-body {
+            width: 100%;
+        }
+    }
+
+    .soy-camila {
+        display: flex;
+        flex-direction: column;
+
+        .camila {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 100%;
+                height: 600px;
+                object-fit: cover;
+
+
+            }
+        }
 
     }
 
-    .outdoor-body {
-        width: 75%;
-        background-color: antiquewhite;
-        margin: 10px;
+    .galeria {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 20px;
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            width: 100%;
+        }
+
+        img {
+            height: 350px;
+            width: 450px;
+            object-fit: cover;
+        }
+    }
+
+    .estudio {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+
+        .mi-estudio {
+            width: 100%;
+        }
+
+        .deco-estudio {
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 400px;
+
+                &:hover {
+                    width: 425px;
+                }
+            }
+        }
+
+        .mapa {
+            width: 100%;
+        }
 
     }
 
@@ -31,44 +230,87 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        .indoor-body {
+            width: 100%;
+        }
     }
 
-    .indoor-body {
-        width: 75%;
-        background-color: antiquewhite;
-        margin: 10px;
+    .sesiones {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 700px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .galeria {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            width: 50%;
+
+            .row {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: start;
+
+
+                .col {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: start;
+                    align-items: start;
+
+                    img {
+                        width: 200px;
+                    }
+                }
+            }
+        }
     }
 
     .container {
         display: flex;
         flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap;
+        width: 500px;
 
-    }
 
-    .col img {
-        width: 450px;
+        .row {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 450px;
 
 
-    }
-}
+            .col {
+                display: flex;
+                flex-direction: column;
 
-@media only screen and (max-width:576px) {
-    .carousel-inner {
-        height: 100%;
-    }
-    .soy-camila {
-        display: flex;
-        flex-direction: column;
-    }
+            }
 
-    .container {
-        display: flex;
-        flex-direction: column;
+            img {
+                height: 600px;
+                width: 100%;
+            }
 
-    }
-
-    .col img {
-        width: 450px;
+        }
 
     }
 }
@@ -77,53 +319,89 @@
     .carousel-inner {
         height: 100%;
     }
+
     .sesiones {
         display: flex;
         flex-direction: column;
+
+    }
+
+    .galeria {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+
+                img {
+                    height: 300px;
+                    width: 380px;
+                    object-fit: cover;
+                }
         
     }
-    .card {
+    .estudio {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-    }
+        justify-content: start;
+        align-items: start;
 
-    .soy-camila {
-        display: flex;
-        flex-direction: column;
-    }
+        .mi-estudio {
+            width: 100%;
+        }
 
+        .deco-estudio {
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 300px;
+
+                &:hover {
+                    width: 325px;
+                }
+            }
+        }
+
+        .mapa {
+            width: 100%;
+        }
+
+    }
     .container {
         display: flex;
         flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap;
+        width: 400px;
+
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 350px;
+
+
+            .col {
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            img {
+                height: 400px;
+                width: 100%;
+            }
+
+        }
 
     }
-
-    .col img {
-        width: 100%;
-    }
-
-
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:330px) {
+@media only screen and (max-width:390px) {
     .carousel-inner {
         height: 100%;
     }
@@ -132,35 +410,74 @@
         display: flex;
         flex-direction: column;
     }
+    .galeria {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
 
+                img {
+                    height: 200px;
+                    width: 280px;
+                    object-fit: cover;
+                }
+        
+    }
+    .estudio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .mi-estudio {
+            width: 100%;
+        }
+
+        .deco-estudio {
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 250px;
+
+            }
+        }
+
+        .mapa {
+            width: 100%;
+        }
+
+    }
     .container {
         display: flex;
         flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap;
+        width: 325px;
+
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 275px;
+
+
+            .col {
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            img {
+                height: 400px;
+                width: 100%;
+            }
+
+        }
 
     }
 
-    .col img {
-        width: 240px;
     }
-}
-@media only screen and (max-width:300px) {
-    .carousel-inner {
-        height: 100%;
-    }
-
-    .soy-camila {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .col img {
-        width: 80px;
-    }
-    
-}

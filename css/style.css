@@ -282,8 +282,112 @@ carousel-item img {
   .carousel-inner {
     height: 100%;
   }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .galeria .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .galeria img {
+    height: 400px;
+    width: 425px;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .carousel-inner {
+    height: 100%;
+  }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .galeria .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .galeria img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+  }
 }
 @media only screen and (max-width: 768px) {
+  .carousel-inner {
+    height: 100%;
+  }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+  }
+  .galeria .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+  }
+  .galeria img {
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+  }
+  .sesiones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sesiones .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 750px;
+  }
+  .estudio {
+    padding: 20px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    padding-top: 20px;
+    width: 700px;
+  }
+  .container .row {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+  }
+  .container .row .col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .container .row img {
+    height: 600px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
   .carousel-inner {
     height: 100%;
   }
@@ -292,12 +396,64 @@ carousel-item img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
   }
-  .outdoor-body {
-    width: 75%;
-    background-color: antiquewhite;
-    margin: 10px;
+  .outdoor .outdoor-body {
+    width: 100%;
+  }
+  .soy-camila {
+    display: flex;
+    flex-direction: column;
+  }
+  .soy-camila .camila {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .soy-camila .camila img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+  }
+  .galeria .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+  }
+  .galeria img {
+    height: 350px;
+    width: 450px;
+    object-fit: cover;
+  }
+  .estudio {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .estudio .mi-estudio {
+    width: 100%;
+  }
+  .estudio .deco-estudio {
+    display: flex;
+    flex-direction: column;
+  }
+  .estudio .deco-estudio img {
+    width: 400px;
+  }
+  .estudio .deco-estudio img:hover {
+    width: 425px;
+  }
+  .estudio .mapa {
+    width: 100%;
   }
   .indoor {
     display: flex;
@@ -305,33 +461,69 @@ carousel-item img {
     justify-content: center;
     align-items: center;
   }
-  .indoor-body {
-    width: 75%;
-    background-color: antiquewhite;
-    margin: 10px;
+  .indoor .indoor-body {
+    width: 100%;
+  }
+  .sesiones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sesiones .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+  }
+  .sesiones .card img {
+    width: 100%;
+  }
+  .sesiones .galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 50%;
+  }
+  .sesiones .galeria .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .sesiones .galeria .row .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .sesiones .galeria .row .col img {
+    width: 200px;
   }
   .container {
     display: flex;
     flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 500px;
   }
-  .col img {
+  .container .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 450px;
   }
-}
-@media only screen and (max-width: 576px) {
-  .carousel-inner {
-    height: 100%;
-  }
-  .soy-camila {
+  .container .row .col {
     display: flex;
     flex-direction: column;
   }
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-  .col img {
-    width: 450px;
+  .container .row img {
+    height: 600px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -342,24 +534,63 @@ carousel-item img {
     display: flex;
     flex-direction: column;
   }
-  .card {
+  .galeria {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
   }
-  .soy-camila {
+  .galeria img {
+    height: 300px;
+    width: 380px;
+    object-fit: cover;
+  }
+  .estudio {
     display: flex;
     flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .estudio .mi-estudio {
+    width: 100%;
+  }
+  .estudio .deco-estudio {
+    display: flex;
+    flex-direction: column;
+  }
+  .estudio .deco-estudio img {
+    width: 300px;
+  }
+  .estudio .deco-estudio img:hover {
+    width: 325px;
+  }
+  .estudio .mapa {
+    width: 100%;
   }
   .container {
     display: flex;
     flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 400px;
   }
-  .col img {
+  .container .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 350px;
+  }
+  .container .row .col {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .row img {
+    height: 400px;
     width: 100%;
   }
 }
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 390px) {
   .carousel-inner {
     height: 100%;
   }
@@ -367,28 +598,57 @@ carousel-item img {
     display: flex;
     flex-direction: column;
   }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .galeria img {
+    height: 200px;
+    width: 280px;
+    object-fit: cover;
+  }
+  .estudio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .estudio .mi-estudio {
+    width: 100%;
+  }
+  .estudio .deco-estudio {
+    display: flex;
+    flex-direction: column;
+  }
+  .estudio .deco-estudio img {
+    width: 250px;
+  }
+  .estudio .mapa {
+    width: 100%;
+  }
   .container {
     display: flex;
     flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 325px;
   }
-  .col img {
-    width: 240px;
+  .container .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 275px;
   }
-}
-@media only screen and (max-width: 300px) {
-  .carousel-inner {
-    height: 100%;
-  }
-  .soy-camila {
+  .container .row .col {
     display: flex;
     flex-direction: column;
   }
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-  .col img {
-    width: 80px;
+  .container .row img {
+    height: 400px;
+    width: 100%;
   }
 }
 
