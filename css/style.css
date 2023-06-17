@@ -55,8 +55,8 @@ carousel-item img {
   position: relative;
 }
 .outdoor .outdoor-body img {
-  width: 100%;
   height: 350px;
+  width: 100%;
   object-fit: cover;
   transition: 0.5s;
   border: solid rgb(241, 238, 238) 0.3px;
@@ -92,8 +92,8 @@ carousel-item img {
 .soy-camila img {
   height: 480px;
   width: 100%;
-  display: flex;
   object-fit: cover;
+  display: flex;
 }
 
 .indoor {
@@ -109,8 +109,8 @@ carousel-item img {
   position: relative;
 }
 .indoor .indoor-body img {
-  width: 100%;
   height: 350px;
+  width: 100%;
   object-fit: cover;
   transition: 0.5s;
   border: solid rgb(241, 238, 238) 0.3px;
@@ -171,8 +171,8 @@ carousel-item img {
   border: solid black 1px;
 }
 .sesiones .card img {
-  width: 600px;
   height: 500px;
+  width: 600px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -229,8 +229,8 @@ carousel-item img {
   font-size: 35px;
 }
 .estudio .mi-estudio img {
-  width: 100%;
   height: 400px;
+  width: 100%;
   object-fit: cover;
   border: solid black 1px;
 }
@@ -267,8 +267,8 @@ carousel-item img {
   border-radius: 10px;
 }
 .container .col img {
-  width: 600px;
   height: 500px;
+  width: 600px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -410,8 +410,8 @@ carousel-item img {
     flex-direction: column;
   }
   .soy-camila .camila img {
-    width: 100%;
     height: 600px;
+    width: 100%;
     object-fit: cover;
   }
   .galeria {
@@ -614,9 +614,14 @@ carousel-item img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px;
   }
   .estudio .mi-estudio {
+    width: 300px;
+  }
+  .estudio .mi-estudio img {
     width: 100%;
+    overflow: scroll;
   }
   .estudio .deco-estudio {
     display: flex;

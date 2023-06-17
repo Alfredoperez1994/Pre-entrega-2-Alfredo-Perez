@@ -4,30 +4,19 @@
     }
 
     .galeria {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flexbox(column, center, center);
 
         .row {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
+            @include flexbox(row, center, center);
             width: 100%;
         }
 
         img {
-            height: 400px;
-            width: 425px;
-            object-fit: cover;
+            @include imagenes(400px, 425px, cover);
         }
     }
 
 }
-
-
-
 
 @media only screen and (max-width:960px) {
     .carousel-inner {
@@ -35,26 +24,18 @@
     }
 
     .galeria {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flexbox(column, center, center);
+
 
         .row {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
+            @include flexbox(row, center, center);
             width: 100%;
         }
 
         img {
-            height: 400px;
-            width: 400px;
-            object-fit: cover;
+            @include imagenes(400px, 400px, cover);
         }
     }
-
 
 }
 
@@ -64,38 +45,25 @@
     }
 
     .galeria {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
+@include flexbox(column,start,start);
         padding: 20px;
 
         .row {
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-            align-items: start;
+            @include flexbox(column,start,start);
             width: 100%;
         }
 
         img {
-            height: 400px;
-            width: 600px;
-            object-fit: cover;
+            @include imagenes(400px, 600px, cover);
         }
     }
 
     .sesiones {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flexbox(column,center,center);
+      
 
         .card {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flexbox(column,center,center);
             width: 95%;
             height: 750px;
         }
@@ -144,10 +112,8 @@
     }
 
     .outdoor {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flexbox(column,center,center);
+    
 
         .outdoor-body {
             width: 100%;
@@ -164,43 +130,28 @@
             flex-direction: column;
 
             img {
-                width: 100%;
-                height: 600px;
-                object-fit: cover;
-
-
+                @include imagenes(600px,100%,cover);
             }
         }
 
     }
 
     .galeria {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
+         @include flexbox(column,start,start);
         padding: 20px;
 
         .row {
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-            align-items: start;
+            @include flexbox(column,start,start);
             width: 100%;
         }
 
         img {
-            height: 350px;
-            width: 450px;
-            object-fit: cover;
+            @include imagenes(350px,450px,cover);
         }
     }
 
     .estudio {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
+        @include flexbox(column,start,start);
 
         .mi-estudio {
             width: 100%;
@@ -226,10 +177,8 @@
     }
 
     .indoor {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+         @include flexbox(column,center,center);
+    
 
         .indoor-body {
             width: 100%;
@@ -237,16 +186,11 @@
     }
 
     .sesiones {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+         @include flexbox(column,center,center);
+       
 
         .card {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flexbox(column,center,center);
             width: 100%;
             height: 700px;
 
@@ -256,25 +200,17 @@
         }
 
         .galeria {
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-            align-items: start;
+            @include flexbox(column,start,start);
             width: 50%;
 
             .row {
-                display: flex;
-                flex-direction: column;
-                justify-content: start;
-                align-items: start;
+                @include flexbox(column,start,start);
+            
 
 
                 .col {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: start;
-                    align-items: start;
-
+                    @include flexbox(column,start,start);
+                
                     img {
                         width: 200px;
                     }
@@ -284,10 +220,7 @@
     }
 
     .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
+        @include flexbox(column,start,start);
         flex-wrap: wrap;
         width: 500px;
 
@@ -327,24 +260,16 @@
     }
 
     .galeria {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-       
-
-                img {
-                    height: 300px;
-                    width: 380px;
-                    object-fit: cover;
-                }
+        @include flexbox(column,center,center);
         
+        img {
+            @include imagenes(300px,380px,cover);
+        }
+
     }
+
     .estudio {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
+        @include flexbox(column,start,start);
 
         .mi-estudio {
             width: 100%;
@@ -368,11 +293,9 @@
         }
 
     }
+
     .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
+        @include flexbox(column,start,start);
         flex-wrap: wrap;
         width: 400px;
 
@@ -410,28 +333,27 @@
         display: flex;
         flex-direction: column;
     }
-    .galeria {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-       
 
-                img {
-                    height: 200px;
-                    width: 280px;
-                    object-fit: cover;
-                }
-        
+    .galeria {
+        @include flexbox(column,center,center);
+       
+        img {
+            @include imagenes(200px,280px,cover);
+        }
+
     }
+
     .estudio {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flexbox(column,center,center);
+        margin: 10px;
 
         .mi-estudio {
-            width: 100%;
+            width: 300px;
+
+            img {
+                width: 100%;
+                overflow: scroll;
+            }
         }
 
         .deco-estudio {
@@ -449,11 +371,9 @@
         }
 
     }
+
     .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
+        @include flexbox(column,start,start);
         flex-wrap: wrap;
         width: 325px;
 
@@ -480,4 +400,4 @@
 
     }
 
-    }
+}

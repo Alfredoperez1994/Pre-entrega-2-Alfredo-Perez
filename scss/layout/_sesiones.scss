@@ -1,8 +1,5 @@
 .sesiones {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flexbox(column,center,center);
   gap: 30px;
   padding: 40px;
 
@@ -15,9 +12,7 @@
     border: solid black 1px;
 
     img {
-      width: 600px;
-      height: 500px;
-      object-fit: cover;
+      @include imagenes(500px,600px,cover);
       border-radius: 10px;
     }
 
