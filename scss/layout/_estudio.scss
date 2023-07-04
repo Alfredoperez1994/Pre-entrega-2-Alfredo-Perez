@@ -1,5 +1,6 @@
 .estudio {
 
+padding-top: 25px;
 
   .mi-estudio {
     background-color: $main-color;
@@ -8,6 +9,7 @@
       font-family: $font;
       text-decoration: underline;
       font-size: 35px;
+      padding-left: 10px
     }
 
     img {
@@ -26,14 +28,6 @@
       @include imagenes(500px,500px,cover);
       padding: 50px;
       margin: 50px;
-      transition: .3s;
-
-      &:hover {
-        height: 550px;
-        width: 550px;
-        box-shadow: 5px 5px 15px 0;
-        color: $second-color;
-      }
     }
   }
 

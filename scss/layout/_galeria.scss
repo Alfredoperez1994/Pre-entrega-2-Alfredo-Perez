@@ -1,9 +1,11 @@
 .galeria {
 
+
+
   h1 {
     font-family: $font;
     text-decoration: underline;
-    padding: 10px;
+    padding: 20px;
     font-size: 35px;
 
   }
@@ -16,10 +18,16 @@
   }
 
 
- img {
-@include imagenes(600px,600px,cover);
-  margin: 25px;
-  border-radius: 10px;
+.galeria-img {
+  padding: 25px;
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  object-fit: cover;
+  gap: 20px;
+  
 
 }
 
